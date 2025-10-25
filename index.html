@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">LearnHub</h1>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#courses" class="nav-link">Courses</a>
+                    <button class="login-btn" id="loginBtn">Login</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h2>Learn Without Limits</h2>
+                <p>Start your learning journey with our curated courses</p>
+                <a href="#courses" class="cta-button">Browse Courses</a>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="courses-section" id="courses">
+            <h2>Available Courses</h2>
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Courses will be loaded by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Login Modal -->
+        <div class="modal" id="loginModal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Login to Your Account</h3>
+                <form class="login-form">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <p>Don't have an account? <a href="#" class="signup-link">Sign up</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 LearnHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
