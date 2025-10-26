@@ -1,8 +1,3 @@
-# =============================================
-# Climate Change Impact Predictor - NO INSTALL REQUIRED
-# Uses only built-in Python libraries
-# =============================================
-
 import math
 
 def simple_linear_regression(x, y):
